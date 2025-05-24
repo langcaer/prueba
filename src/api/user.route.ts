@@ -1,5 +1,5 @@
 // src/routes/api/user.route.ts
-import { getUser, updateUser, deleteUser } from "../../controllers/userController";
+import { getUser, updateUser, deleteUser } from "../controllers/userController";
 
 const userRoutes = {
     "/api/users/:id": {

@@ -2,7 +2,7 @@ import {
     helloGet,
     helloPut,
     helloByName,
-} from "../../controllers/helloController";
+} from "../controllers/helloController";
 
 const routes = {
     "/api/hello": {

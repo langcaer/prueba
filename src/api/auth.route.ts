@@ -1,5 +1,5 @@
 // src/routes/api/auth.route.ts
-import { login, logout, register } from "../../controllers/authController";
+import { login, logout, register } from "../controllers/authController";
 
 const authRoutes = {
     "/api/auth/login": {
